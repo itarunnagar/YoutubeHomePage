@@ -1,0 +1,184 @@
+:root {
+  --bgColor: #f8f8f8;
+  --borderColor: #ccc;
+  --textColor: #606060;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav Bar Section Start */
+/* Nav Bar Section Start */
+/* Nav Bar Section Start */
+/* Nav Bar Section Start */
+/* Nav Bar Section Start */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 35px;
+}
+/* First Section */
+/* First Section */
+.headerFirstSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+/* Menu Section */
+.headerFirstSection i {
+  cursor: pointer;
+}
+i {
+  cursor: pointer;
+}
+/* Logo Section */
+.headerFirstSection img {
+  width: 130px;
+}
+/* Second Section */
+/* Second Section */
+.headerSecondSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+/* Input Area */
+.inputBgc {
+  background-color: var(--bgColor);
+  width: 550px;
+  height: 40px;
+  border: 1px solid var(--borderColor);
+  border-radius: 10px;
+}
+.inputBgc input {
+  font-size: 17px;
+  padding: 1px 20px;
+  position: relative;
+  top: -1px;
+  left: -1px;
+  width: 450px;
+  height: 38px;
+  border: 1px solid var(--borderColor);
+  border-radius: 10px 0px 0px 10px;
+}
+/* Search Icons */
+.searchLogo {
+  cursor: pointer;
+  position: relative;
+  left: 16px;
+}
+/* MIc Icons */
+.micIcons {
+  background-color: var(--bgColor);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+}
+/* Third Section */
+/* Third Section */
+/* Third Section */
+.headerThirdSection {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+/* Notication and Video Section */
+.btn:hover {
+  background-color: var(--bgColor);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+}
+/* Account Logo */
+.accountLogo img {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+/* NAv BAr List */
+/* NAv BAr List */
+/* NAv BAr List */
+.headerUtilityList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
+.utlityArea {
+  background-color: var(--bgColor);
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 10px;
+}
+.utlityArea:hover {
+  background-color: var(--borderColor);
+  font-weight: 500;
+}
+
+/* Hero Section  */
+/* Hero Section  */
+/* Hero Section  */
+/* Hero Section  */
+/* Hero Section  */
+
+/* Youtube Card Section */
+/* Youtube Card Section */
+/* Youtube Card Section */
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  cursor: pointer;
+}
+.cardUpperSection img {
+  width: 400px;
+  border-radius: 10px;
+}
+.cardLowerSection {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+.channelLogo img {
+  width: 40px;
+  border-radius: 50%;
+}
+/* .videoDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+.videoHeading {
+  font-size: 16px;
+  font-weight: 700;
+}
+.channelName {
+  color: var(--textColor);
+  font-size: 13px;
+}
+.views {
+  color: var(--textColor);
+  font-size: 13px;
+}
+
+/* Rows of Cards */
+/* Rows of Cards */
+/* Rows of Cards */
+.allRows {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
